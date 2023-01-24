@@ -17,6 +17,8 @@ const imageItem = galleryItems
   )
   .join('');
 
+
+  
 galleryList.insertAdjacentHTML('beforeend', imageItem);
 
 let gallery = new SimpleLightbox('.gallery a', {
